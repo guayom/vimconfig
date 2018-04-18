@@ -4,11 +4,12 @@ filetype off                  " required
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
-  Plugin 'MarcWeber/vim-addon-mw-utils'
   Plugin 'tomtom/tlib_vim'
-  Plugin 'tpope/vim-repeat'
+  Plugin 'MarcWeber/vim-addon-mw-utils'
   Plugin 'garbas/vim-snipmate'
-  Plugin 'isruslan/vim-es6'
+  Plugin 'tpope/vim-repeat'
+  Plugin 'mxw/vim-jsx'
+  Plugin 'bentayloruk/vim-react-es6-snippets'
   Plugin 'kien/ctrlp.vim'
   Plugin 'evidens/vim-twig'
   Plugin 'tpope/vim-surround'
