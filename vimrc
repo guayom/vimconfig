@@ -5,6 +5,7 @@ filetype off                  " required
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
   Plugin 'tomtom/tlib_vim'
+  Plugin 'scrooloose/nerdcommenter'
   Plugin 'MarcWeber/vim-addon-mw-utils'
   Plugin 'garbas/vim-snipmate'
   Plugin 'tpope/vim-repeat'
