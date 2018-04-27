@@ -14,7 +14,7 @@ call vundle#begin()
   Plugin 'kien/ctrlp.vim'
   Plugin 'evidens/vim-twig'
   Plugin 'tpope/vim-surround'
-  Plugin 'bf4/vim-dark_eyes'
+  Plugin 'tomasiser/vim-code-dark'
   Plugin 'nelsyeung/twig.vim'
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -37,7 +37,7 @@ set hidden
 
 "turn on syntax highlighting
 syntax on
-color dark_eyes
+colorscheme codedark
 
 " ================ Persistent Undo ==================
 " Keep undo history across sessions, by storing in file.
