@@ -81,6 +81,10 @@ set nofoldenable        "dont fold by default
 set numberwidth=4
 set relativenumber
 
+" ================ FIND  =============================
+set path=$PWD/**
+set wildmenu
+set wildmode=list:longest,full
 
 " ================ NETRW ============================
 let g:netrw_banner = 0
